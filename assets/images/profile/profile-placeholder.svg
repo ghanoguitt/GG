@@ -1,0 +1,16 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#0B1220"/>
+  <rect x="54" y="54" width="692" height="892" rx="35" fill="url(#paint0_linear_1_2)" stroke="#8EC5FF" stroke-opacity="0.4"/>
+  <circle cx="400" cy="350" r="160" fill="#18314B"/>
+  <circle cx="400" cy="328" r="120" fill="#8EC5FF" fill-opacity="0.25"/>
+  <path d="M288 715C300.279 628.407 350.321 582 400 582C449.679 582 499.721 628.407 512 715H288Z" fill="#8EC5FF" fill-opacity="0.38"/>
+  <rect x="226" y="630" width="348" height="92" rx="46" fill="#0D1A2A" stroke="#8EC5FF" stroke-opacity="0.4"/>
+  <text x="400" y="690" text-anchor="middle" fill="#EAF5FF" font-family="Arial, sans-serif" font-size="42" font-weight="700">PROFILE</text>
+  <text x="400" y="810" text-anchor="middle" fill="#A9BED2" font-family="Arial, sans-serif" font-size="30" font-weight="600">GUITT ABDELGHANI</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="94" y1="68" x2="713" y2="953" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132535"/>
+      <stop offset="1" stop-color="#0A1220"/>
+    </linearGradient>
+  </defs>
+</svg>

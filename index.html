@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guitt Abdelghani | Full Stack Developer, Digital Creator, Photographe et Filmmaker basé à Alger, Algérie." />
+    <meta name="author" content="Guitt Abdelghani" />
+    <meta property="og:title" content="Guitt Abdelghani | Full Stack Developer" />
+    <meta property="og:description" content="Portfolio professionnel de Guitt Abdelghani, développeur Full Stack, créateur digital et photographe." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:image" content="assets/images/profile/guitt-profile.jfif" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Guitt Abdelghani | Full Stack Developer" />
+    <meta name="twitter:description" content="Portfolio professionnel de Guitt Abdelghani, développeur Full Stack, créateur digital et photographe." />
+    <link rel="canonical" href="https://your-domain.com/" />
+    <title>Guitt Abdelghani | Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-theme="dark">
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigation principale">
+        <a href="#home" class="brand" aria-label="Retour à l'accueil">GA<span>.</span></a>
+
+        <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+
+        <div id="nav-menu" class="nav-menu" aria-label="Menu principal">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#creative">Creative</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Activer le mode clair">Light mode</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">FULL STACK DEVELOPER</p>
+            <h1>Guitt Abdelghani</h1>
+            <p class="subtitle">Full Stack Developer</p>
+            <p class="tagline">Digital Creator · Photographer · Filmmaker</p>
+            <p>
+              Je suis technicien supérieur en développement Web et Mobile et développeur Full Stack, avec une expérience pratique acquise dans différents environnements professionnels.
+              Je conçois des solutions web modernes, j’accompagne des projets numériques et je crée des contenus visuels avec une approche professionnelle.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">Voir mes projets</a>
+              <a class="btn secondary" href="#contact">Me contacter</a>
+            </div>
+            <div class="quick-links" aria-label="Liens rapides">
+              <a href="https://github.com/ghanoguitt" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://www.tiktok.com/@fanfarealger" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+              <a href="mailto:ghanoguitt730@gmail.com">Email ↗</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Photo de profil de Guitt Abdelghani">
+            <div class="profile-card">
+              <img class="profile-portrait" src="assets/images/profile/guitt-profile.jfif" alt="Portrait de Guitt Abdelghani" />
+              <span class="floating-tag tag-one">React.js</span>
+              <span class="floating-tag tag-two">Laravel</span>
+              <span class="floating-tag tag-three">PHOTO • FILM</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">01 — ABOUT ME</p>
+            <h2>Développeur technique, créatif et adaptable.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              <p>
+                Je suis technicien supérieur en développement Web et Mobile et développeur Full Stack, avec une expérience pratique acquise dans différents environnements professionnels.
+              </p>
+              <p>
+                Je m’intéresse particulièrement au développement Web, aux applications modernes, à la création digitale, à la photographie et au filmmaking.
+              </p>
+              <p>
+                Je suis également capable de travailler en équipe, d’apprendre rapidement de nouvelles technologies et de m’adapter à différents environnements professionnels.
+              </p>
+            </div>
+
+            <div class="summary-cards reveal">
+              <div class="summary-card">
+                <strong>2024+</strong>
+                <span>Expérience professionnelle</span>
+              </div>
+              <div class="summary-card">
+                <strong>Full Stack</strong>
+                <span>Développement Web &amp; Mobile</span>
+              </div>
+              <div class="summary-card">
+                <strong>Photo + Film</strong>
+                <span>Création digitale</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">02 — SKILLS</p>
+            <h2>Compétences techniques et créatives.</h2>
+          </div>
+
+          <div class="skills-wrap reveal">
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <div class="skill-list" id="frontend-skills"></div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Backend</h3>
+              <div class="skill-list" id="backend-skills"></div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Database</h3>
+              <div class="skill-list" id="database-skills"></div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Creative</h3>
+              <div class="skill-list" id="creative-skills"></div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Software</h3>
+              <div class="skill-list" id="software-skills"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">03 — EXPERIENCE</p>
+            <h2>Parcours professionnel.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2024 — Present</div>
+              <div class="timeline-content">
+                <h3>Direction de la Jeunesse et des Sports — Wilaya d’Alger</h3>
+                <p>Technicien Supérieur en Développement Web &amp; Mobile</p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-date">1 year</div>
+              <div class="timeline-content">
+                <h3>DP World Alger</h3>
+                <p>Internship</p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-date">1 year</div>
+              <div class="timeline-content">
+                <h3>Agence Nationale du Foncier Touristique — ANFT</h3>
+                <p>Internship</p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2024 — Present</div>
+              <div class="timeline-content">
+                <h3>Association des Jeunes des Équipes de Cuivre</h3>
+                <p>Professional Photographer / Digital Creator</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">04 — FEATURED PROJECTS</p>
+            <h2>Projets marquants.</h2>
+          </div>
+          <div id="projects-grid" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="creative" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">05 — PHOTOGRAPHY & FILMMAKING</p>
+            <h2>Photography &amp; Filmmaking</h2>
+          </div>
+
+          <div class="creative-grid">
+            <div class="creative-copy reveal">
+              <p>Photographie professionnelle, création de contenu, vidéo, montage et post-production.</p>
+              <p>J’apporte une dimension visuelle forte à mes projets numériques et artistiques.</p>
+              <div class="cv-actions">
+                <a class="btn primary" href="https://www.tiktok.com/@fanfarealger" target="_blank" rel="noopener noreferrer">Voir mes créations</a>
+              </div>
+            </div>
+
+            <div id="creative-gallery" class="gallery-grid reveal"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">06 — SERVICES</p>
+            <h2>Domaines de travail.</h2>
+          </div>
+          <div id="services-list" class="services-grid"></div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">07 — EDUCATION</p>
+            <h2>Formation.</h2>
+          </div>
+
+          <div class="education-grid reveal">
+            <article class="education-card">
+              <h3>Technicien Supérieur en Développement Web et Mobile</h3>
+              <p>Institut National de l’Informatique — Alger</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="languages" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">08 — LANGUAGES</p>
+            <h2>Langues.</h2>
+          </div>
+          <div id="languages-list" class="languages-grid"></div>
+        </div>
+      </section>
+
+      <section id="cv" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">09 — CV</p>
+            <h2>Curriculum Vitae.</h2>
+          </div>
+
+          <div class="cv-panel reveal">
+            <p>Vous pouvez télécharger ou visualiser mon CV selon votre besoin.</p>
+            <div class="cv-actions">
+              <a class="btn primary" href="assets/cv/Guitt-Abdelghani-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+              <a class="btn secondary" href="assets/cv/Guitt-Abdelghani-CV.pdf" target="_blank" rel="noopener noreferrer">View CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">10 — CONTACT</p>
+            <h2>Discutons votre projet.</h2>
+          </div>
+
+          <div class="contact-box reveal">
+            <div class="contact-copy">
+              <p>Disponible pour des missions en développement web, applications modernes, création digitale, photographie et film.</p>
+              <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:ghanoguitt730@gmail.com">ghanoguitt730@gmail.com</a></li>
+                <li><strong>Téléphone:</strong> <a href="tel:+213792633031">0792633031</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/ghanoguitt" target="_blank" rel="noopener noreferrer">https://github.com/ghanoguitt</a></li>
+                <li><strong>TikTok:</strong> <a href="https://www.tiktok.com/@fanfarealger" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@fanfarealger</a></li>
+              </ul>
+            </div>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Votre nom" required />
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="votre@email.com" required />
+              </div>
+
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Décrivez votre projet..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn primary form-submit">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Guitt Abdelghani</strong><br />
+          Full Stack Developer · Digital Creator · Photographer · Filmmaker
+        </div>
+
+        <div class="footer-socials" aria-label="Réseaux sociaux">
+          <a href="https://github.com/ghanoguitt" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.tiktok.com/@fanfarealger" target="_blank" rel="noopener noreferrer">TikTok</a>
+          <a href="mailto:ghanoguitt730@gmail.com">Email</a>
+        </div>
+
+        <div>© <span id="year"></span> Guitt Abdelghani</div>
+      </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

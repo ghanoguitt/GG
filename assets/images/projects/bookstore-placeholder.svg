@@ -1,0 +1,17 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#0D1722"/>
+  <rect x="86" y="88" width="1028" height="584" rx="30" fill="url(#paint0_linear_1_1)" stroke="#8EC5FF" stroke-opacity="0.45"/>
+  <rect x="200" y="180" width="220" height="320" rx="18" fill="#0E2437" stroke="#8EC5FF" stroke-opacity="0.35"/>
+  <rect x="470" y="180" width="420" height="40" rx="10" fill="#8EC5FF" fill-opacity="0.22"/>
+  <rect x="470" y="250" width="480" height="20" rx="10" fill="#8EC5FF" fill-opacity="0.14"/>
+  <rect x="470" y="300" width="460" height="20" rx="10" fill="#8EC5FF" fill-opacity="0.14"/>
+  <rect x="470" y="350" width="420" height="20" rx="10" fill="#8EC5FF" fill-opacity="0.14"/>
+  <rect x="470" y="420" width="180" height="46" rx="23" fill="#8EC5FF" fill-opacity="0.28"/>
+  <text x="600" y="648" text-anchor="middle" fill="#F1F7FF" font-family="Arial, sans-serif" font-size="54" font-weight="700">BOOKSTORE.APP</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_1" x1="121" y1="101" x2="1088" y2="634" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102230"/>
+      <stop offset="1" stop-color="#0A151E"/>
+    </linearGradient>
+  </defs>
+</svg>
