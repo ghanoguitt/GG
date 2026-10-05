@@ -24,20 +24,20 @@ window.portfolioConfig = {
     {
       title: 'BookStore.app',
       type: 'Web Application',
-      description: 'Application Web dédiée au domaine des livres.',
+      description: 'Maquette visuelle d’une application dédiée au domaine des livres.',
       image: 'assets/images/projects/bookstore-placeholder.svg',
       technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
-      liveDemo: 'TODO: CONFIGURE THIS',
-      github: 'TODO: CONFIGURE THIS'
+      liveDemo: '#',
+      github: '#'
     },
     {
       title: 'Agency Villa.app',
       type: 'Real Estate Web App',
-      description: 'Plateforme Web destinée à une agence immobilière et à la présentation de biens.',
+      description: 'Maquette visuelle d’une plateforme immobilière premium.',
       image: 'assets/images/projects/agency-villa-placeholder.svg',
       technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
-      liveDemo: 'TODO: CONFIGURE THIS',
-      github: 'TODO: CONFIGURE THIS'
+      liveDemo: '#',
+      github: '#'
     }
   ],
   photographyGallery: [
